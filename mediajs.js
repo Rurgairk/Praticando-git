@@ -38,6 +38,8 @@ function botão() {
         numero2.value = ''
         numero3.value = ''
         res.innerHTML = `Sua media foi ${media}`
+        res.classList.add('alert')
+        res.classList.add('alert-secondary')
     } else {
         window.alert('Digite os numeros')
     }
